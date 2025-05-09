@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>초단기 실황 조회</h1>
+  <hr/>
+  <th:block th:each="item:${list}">
+    <p>
+    <div th:text="${item.baseDate}"></div>
+    <div th:text="${item.baseTime}"></div>
+    <div th:text="${item.category}"></div>
+    <div th:text="${item.nx}"></div>
+    <div th:text="${item.ny}"></div>
+    <div th:text="${item.obsrValue}"></div>
+
+    </p>
+  </th:block>
+</body>
+</html>

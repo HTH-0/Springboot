@@ -1,0 +1,43 @@
+package com.example.demo.config;
+
+import com.zaxxer.hikari.HikariDataSource;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class DataSourceConfig {
+
+	
+	// Spring-jdbc DataSource	
+//		@Bean
+//		public DataSource dataSource2() //빈에 함수명을 지정하지 않았기 때//문에 함수 dataSource dataSource.setPassword("1234");
+//		{
+////			DriverManagerDataSource dataSource = new DriverManagerDataSource();
+//			BasicDataSource dataSource = new BasicDataSource();
+//			dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+//			dataSource.setUrl("jdbc:mysql://localhost:3306/testdb");
+//			dataSource.setUsername("root");
+//
+//			dataSource.setInitialSize(5); //초기 연결 개수
+//			dataSource.setMaxTotal(10); //최대 연결 개수
+//			dataSource.setMaxIdle(8); //최대 유휴 연결 수
+//			dataSource.setMinIdle(3); //최소 유휴 연결 수
+//
+//
+//			return dataSource;
+//		}
+		
+//		HikariCP DataSource
+		@Bean
+		public HikariDataSource dataSource()
+		{
+			HikariDataSource dataSource = new HikariDataSource();
+			dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+			dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/testdb");
+			dataSource.setUsername("root");
+			dataSource.setPassword("1234");	
+			 
+			return dataSource;
+		}
+
+}

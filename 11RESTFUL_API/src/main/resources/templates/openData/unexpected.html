@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>대구 돌발 사고 정보 실시간 조회</h1>
+    <hr/>
+    <th:block th:each="item:${list}">
+        <p>
+            <div th:text="${item.lOCATION}"></div>
+            <div th:text="${item.iNCIDENTTITLE}"></div>
+            <div th:text="${item.lOGDATE}"></div>
+            <div th:text="${item.tROUBLEGRADE}"></div>
+            <div th:text="${item.sTARTDATE}"></div>
+            <div th:text="${item.iNCIDENTSUBCODE}"></div>
+            <div th:text="${item.lINKID}"></div>
+            <div th:text="${item.rEPORTDATE}"></div>
+            <div th:text="${item.eNDDATE}"></div>
+            <div th:text="${item.cOORDX}"></div>
+            <div th:text="${item.iNCIDENTCODE}"></div>
+            <div th:text="${item.iNCIDENTID}"></div>
+            <div th:text="${item.cOORDY}"></div>
+            <div th:text="${item.tRAFFICGRADE}"></div>
+
+        </p>
+    </th:block>
+</body>
+</html>
