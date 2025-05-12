@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<html lang="en" xmlns:th="">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -9,22 +9,23 @@
     <hr/>
     <th:block th:each="item:${list}">
         <p>
-            <div th:text="${item.lOCATION}"></div>
-            <div th:text="${item.iNCIDENTTITLE}"></div>
-            <div th:text="${item.lOGDATE}"></div>
-            <div th:text="${item.tROUBLEGRADE}"></div>
-            <div th:text="${item.sTARTDATE}"></div>
-            <div th:text="${item.iNCIDENTSUBCODE}"></div>
-            <div th:text="${item.lINKID}"></div>
-            <div th:text="${item.rEPORTDATE}"></div>
-            <div th:text="${item.eNDDATE}"></div>
-            <div th:text="${item.cOORDX}"></div>
-            <div th:text="${item.iNCIDENTCODE}"></div>
-            <div th:text="${item.iNCIDENTID}"></div>
-            <div th:text="${item.cOORDY}"></div>
-            <div th:text="${item.tRAFFICGRADE}"></div>
-
+            <div th:text="${item.LOCATION}"></div>
+            <div th:text="${item.INCIDENTTITLE}"></div>
+            <div th:text="${item.LOGDATE}"></div>
+            <div th:text="${item.TROUBLEGRADE}"></div>
+            <div th:text="${item.STARTDATE}"></div>
+            <div th:text="${item.INCIDENTSUBCODE}"></div>
+            <div th:text="${item.LINKID}"></div>
+            <div th:text="${item.REPORTDATE}"></div>
+            <div th:text="${item.ENDDATE}"></div>
+            <div th:text="${item.COORDX}"></div>
+            <div th:text="${item.INCIDENTCODE}"></div>
+            <div th:text="${item.INCIDENTID}"></div>
+            <div th:text="${item.COORDY}"></div>
+            <div th:text="${item.TRAFFICGRADE}"></div>
         </p>
+        <hr/>
     </th:block>
+
 </body>
 </html>
