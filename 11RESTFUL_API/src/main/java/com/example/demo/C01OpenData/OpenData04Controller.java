@@ -30,7 +30,7 @@ public class OpenData04Controller {
                 .queryParam("lat",lat)
                 .queryParam("lon",lon)
                 .build(true)
-                .toUri();
+                .toUriString();
 
         RestTemplate rt = new RestTemplate();
         ResponseEntity<String> response = rt.exchange(uri, HttpMethod.GET, null, String.class);
