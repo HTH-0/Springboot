@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kakao Channel</title>
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+</head>
+<body>
+<h1>KAKAO CHANNEL</h1>
+
+<!-- 버튼이 렌더링될 요소 -->
+<div id="Kakao-add-channel-button"></div>
+
+<script>
+  // 콘솔에 SDK 출력 및 초기화
+  console.log("Kakao", Kakao);
+  Kakao.init("4529e684c79317b9964d9ec15e3d199e"); // 본인의 JavaScript 키로 변경
+
+  // 채널 추가 버튼 생성
+  Kakao.Channel.createAddChannelButton({
+    container: '#Kakao-add-channel-button',
+    channelPublicId: '_DXyBn'  // 본인의 채널 ID로 변경 (예: @_abcd1234 형식 아님, 뒤 ID만)
+  });
+</script>
+</body>
+</html>
