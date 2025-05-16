@@ -28,7 +28,7 @@ public class OpenWeatherController {
         String url="https://api.openweathermap.org/data/2.5/weather";
 //        String lat="";
 //        String lon="";
-        String serviceKey="2d8187fb662c9a0871d7a65d5941a3e8";
+        String serviceKey="";
         URI uri = UriComponentsBuilder
                 .fromHttpUrl(url)
                 .queryParam("appid", URLEncoder.encode(serviceKey, "UTF-8")) // 인코딩 꼭 필요
