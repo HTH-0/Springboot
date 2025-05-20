@@ -5,11 +5,158 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f4a586-d2bc-4610-94e7-645a8c411c75" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C02OpenWeatherMap/OpenWeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C02OpenWeatherMap/OpenWeatherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C04Kakao/C04KakaoPayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C04Kakao/C04KakaoPayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C05naver/C01NaverLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C05naver/C01NaverLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C05naver/C02NaverSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C05naver/C02NaverSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C07PortOne/PortOneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../11RESTFUL_API/src/main/java/com/example/demo/C07PortOne/PortOneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/PrincipalDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/PrincipalDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/exceptionHandler/CustomAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/exceptionHandler/CustomAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/loginHandler/CustomLoginFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/loginHandler/CustomLoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/logoutHandler/CustomLogoutHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/config/auth/logoutHandler/CustomLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/java/com/example/demo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/resources/templates/manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_INIT/src/main/resources/templates/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_JPA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/config/JpaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/config/TxConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/controller/ExceptionTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/controller/MemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/controller/ParameterTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/controller/ThymeleafTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/controller/exception/GolbalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/dto/MemoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/dto/PersonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/entity/Lend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/entity/Memo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/mapper/MemoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/repository/BookRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/repository/LendRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/repository/MemoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/domain/service/TxTestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/java/com/example/demo/restController/RestController_01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/mapper/MemoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/templates/th/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/templates/th/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/templates/th/param1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/templates/th/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/resources/templates/th/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/except/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/except/page01.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/except/page02.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/global_error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/memo/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/param/forward_result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/param/page01.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/main/webapp/WEB-INF/views/param/redirect_result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/config/DataSourceConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/config/DataSourceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/config/MybatisConfigTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/domain/mapper/MemoMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/domain/repository/BookRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/domain/repository/LendRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/domain/repository/UserRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09THYMELEAF/src/test/java/com/example/demo/domain/service/TxTestServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/8.13/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/06MYBATIS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/07JPA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/09RESTCONTROLLER.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/build/tmp/bootWar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/DemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/config/DataSourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/config/JpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/config/MybatisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/config/TxConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/ExceptionTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/MemoController$DateTestEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/MemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/ParameterTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/ThymeleafTestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/controller/exception/GolbalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/dto/MemoDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/dto/PersonDto$PersonDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/dto/PersonDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/Book$BookBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/Lend$LendBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/Lend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/Memo$MemoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/Memo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/mapper/MemoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/repository/BookRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/repository/LendRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/repository/MemoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/domain/service/TxTestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/classes/com/example/demo/restController/RestController_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/mapper/MemoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/templates/th/fragments/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/templates/th/fragments/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/templates/th/param1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/templates/th/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/production/resources/templates/th/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/config/DataSourceConfigTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/config/DataSourceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/config/MybatisConfigTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/domain/mapper/MemoMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/domain/repository/BookRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/domain/repository/LendRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/domain/repository/UserRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10THYMELEAF/out/test/classes/com/example/demo/domain/service/TxTestServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_INIT/.gradle/8.13/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/01_INIT/.gradle/8.13/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_INIT/.gradle/8.13/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/01_INIT/.gradle/8.13/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_INIT/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/01_INIT/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_INIT/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/01_INIT/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_INIT/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/01_INIT/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_INIT/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/01_INIT/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +210,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Rebasing main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f3f4a586-d2bc-4610-94e7-645a8c411c75" name="Changes" comment="" />
